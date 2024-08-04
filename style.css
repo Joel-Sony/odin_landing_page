@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
 *,*:before, *:after {
 
     box-sizing: border-box ; 
     padding: 0 ;
     margin: 0 ;  
-    
+    font-family: Roboto;
 }
 
 ul{
@@ -12,18 +15,131 @@ ul{
 .header{
     display: flex;
     justify-content: space-between;
-    background-color: #1F2937;
+    background-color: #CC313D;
+    padding-top: 20px;
 }
 
 .header ul{
     display: flex;
     gap: 10px;
     margin-right: 200px;
+    font-size:18px;
+    color:#E5E7EB;
 }
 
 .header div{
     display: flex;
     margin-left: 200px;
-
+    font-size: 24px;
+    color:#F9FaF8;
+    font-weight: 600;
 }
 
+.image img{
+    width: 600px;
+    height: auto;
+    border-radius: 30px;
+    border-color: #F9FaF8;
+    border: 10px solid  #F7C5CC;
+}
+
+.head_text{
+    padding-top:100px;
+    padding-bottom:120px;
+    display:flex;
+    background-color: #CC313D;
+    justify-content: center;
+}
+
+.hero{
+    font-family:Lora,robota;
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FaF8;    
+}
+
+.head_left{
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+}
+
+.hero_sub{
+    padding-top:30px;
+    font-size:18px;
+    color:#E5E7EB;
+}
+
+.box_header{
+    font-size:36px;
+    font-weight: 900;
+    color:#1f2937;
+    text-align:center;
+    padding-top:50px;
+}
+
+.box_container{
+    padding-top:40px;
+    display:flex;
+    justify-content:center;
+    gap:100px;
+}
+
+.box{
+    border: 9px solid #F7C5CC;
+    width:200px;
+    height:200px;
+    border-radius: 20px;
+    background-color: grey;
+}
+
+.box img{
+    width:187px;
+    height:auto;
+}
+
+.text_under_box{
+    display:flex;
+    justify-content: center;
+    gap:300px;
+}
+
+.boxes{
+    display:flex;
+    flex-direction:column;
+}
+
+.boxes p{
+    padding-top: 10px;
+    width:187px;
+    height:auto;
+    text-align: center;
+    line-height: 1.2;
+    font-size:18px;
+    color:  #73605B;
+}
+.quote{
+    display:flex;
+    flex-direction: column;
+    background-color: #E5E7EB ;
+    padding: 150px;
+    margin-top: 60px;
+}
+.quote_text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-style: italic;
+    color:#1f2937;
+}
+
+.isshin{
+    font-size: 25px;
+    justify-content: center;
+    padding-left:500px;
+    padding-top:20px;
+    font-weight:700;
+    font-style: normal;
+}
